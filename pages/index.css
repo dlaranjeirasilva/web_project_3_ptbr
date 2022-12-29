@@ -182,6 +182,7 @@ body {
     display: flex;
     grid-column-start: 2;
     grid-row-start: 2;
+    grid-row-end: 5;
     flex-direction: column;
     row-gap: 25px;
 }
