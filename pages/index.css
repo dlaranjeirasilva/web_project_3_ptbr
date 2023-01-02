@@ -63,7 +63,7 @@ body {
 }
 
 .intro {
-    width: 1017px;
+    max-width: 1017px;
     height: 516px;
     margin: 0 auto;
     color: #FFFFFF;
@@ -108,7 +108,7 @@ body {
 
 .photo-grid {
     margin: 92px auto;
-    width: 1184px;
+    max-width: 1184px;
     height: 442px;
     display: grid;
     gap: 16px;
@@ -122,5 +122,91 @@ body {
 }
 
 .places {
-    width: 984px;
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+.place {
+    display: grid;
+    max-width: 984px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr repeat(2, 205px) auto;
+    row-gap: 50px;
+    column-gap: 40px;
+    padding-bottom: 80px;
+}
+
+.place__title {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    color: #FFFFFF;
+    font-size: 72px;
+    /* font-size: 4.5rem; */
+    width: 460px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.place__image {
+    width: 460px;
+    height: 460px;
+    grid-row-start: 2;
+}
+
+.place__photographers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.place__photographers-artists {
+    color: #AAAAAA;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    height: 20px;
+    line-height: 1.2;
+}
+
+.place__photographers-names {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    height: 22px;
+}
+
+.place__paragraphs {
+    display: flex;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.place__paragraph {
+    grid-column-start: 2;
+    font-size: 18px;
+    width: 484px;
+    line-height: 1.62;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.place__buy-art {
+    width: 355px;
+    height: 48px;
+    grid-row-start: 4;
+    background-color: #0278FE;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 4px;
 }
