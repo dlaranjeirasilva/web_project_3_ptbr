@@ -286,3 +286,18 @@ body {
   background-color: #0063D2; 
   cursor: pointer;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer__author {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
