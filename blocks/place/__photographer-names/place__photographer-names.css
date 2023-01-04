@@ -1,0 +1,13 @@
+.place__photographer-names {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  height: 22px;
+}
+
+@media screen and (max-width: 320px) {
+  .place__photographers-names {
+    height: auto;
+  }
+}

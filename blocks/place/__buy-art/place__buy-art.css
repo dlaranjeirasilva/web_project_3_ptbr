@@ -1,0 +1,14 @@
+.place__buy-art {
+  width: 355px;
+  height: 48px;
+  grid-row-start: 4;
+}
+
+@media screen and (max-width: 320px) {
+  .place__buy-art {
+    grid-row-start: 5;
+    font-size: 14px;
+    width: 288px;
+    height: 48px;
+  }
+}

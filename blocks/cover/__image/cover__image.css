@@ -1,0 +1,18 @@
+.cover__image {
+  max-width: 1184px;
+  max-height: 740px;
+  opacity: 0.8;
+}
+
+.cover__image:hover {
+  opacity: 0.2;
+  background: #2a2c2f;
+  cursor: url("../images/Vector.png"), auto;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__image {
+    width: 320px;
+    height: 254px;
+  }
+}

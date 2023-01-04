@@ -1,0 +1,15 @@
+.place__photographer-artists {
+  color: #aaaaaa;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  height: 20px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 320px) {
+  .place__photographers-artists {
+    height: 24px;
+  }
+}

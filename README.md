@@ -16,4 +16,4 @@ Este é um projeto que mostra as cidades de origem de alguns funcionários do Pr
   
 A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido. 
   
-Boa sorte e divirta-se!   
+  
