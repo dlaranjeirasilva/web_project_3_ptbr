@@ -2,7 +2,8 @@
 ### Visão geral    
 * Introdução  
 * Figma  
-* Imagens  
+* Deployment  
+* Resumo
   
 **Introdução**    
   
@@ -12,8 +13,12 @@ Este é um projeto que mostra as cidades de origem de alguns funcionários do Pr
   
 * [Link para o projeto no Figma](https://www.figma.com/file/GrMXsb1nThoKf3LFc42Bbh/WEB%2C-Sprint-3-%3A-De-P%C3%A1tria-para-P%C3%A1tria-%7C-desktop-%2B-mobile?node-id=0%3A1)  
   
-**Imagens**  
+**Deployment**  
   
-A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido. 
+* [Resultado do Projeto! :D](https://dlaranjeirasilva.github.io/web_project_3_ptbr/)
   
-  
+**Resumo**
+
+O Site é complementamente montado com HTML e CSS, semelhante ao projeto 1 [neste](https://github.com/dlaranjeirasilva/web_project_1_ptbr) repositório, o deployment dele também foi feito e está [disponível para visualização](https://dlaranjeirasilva.github.io/web_project_1_ptbr/).
+
+Neste contudo foram mais explorados conceitos um poucos mais avançados de CSS e também fora considerado responsividade da página para telas de 1280px, 768px e 320px.
