@@ -1,10 +1,10 @@
-.modal__buy-ticket {
+.cover__buy-ticket {
   width: 191px;
   height: 48px;
 }
 
 @media screen and (max-width: 320px) {
-  .modal__buy-ticket {
+  .cover__buy-ticket {
     font-size: 18px;
   }
 }
