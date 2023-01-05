@@ -16,10 +16,9 @@ body {
 .page {
   margin: 0 auto;
   width: 1280px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   background-color: #2a2c2f;
 }
-
 
 @media screen and (max-width: 768px) {
   .page {

@@ -1,13 +1,18 @@
 .cover__image {
-  max-width: 1184px;
-  max-height: 740px;
-  opacity: 0.8;
+  width: 1184px;
+  height: 740px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(42, 44, 47, 0.2), rgba(42, 44, 47, 0.2)),
+    url("../../../images/background-cover.jpg"), no-repeat;
+  flex-direction: column;
 }
 
 .cover__image:hover {
-  opacity: 0.2;
-  background: #2a2c2f;
-  cursor: url("../images/Vector.png"), auto;
+  background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)),
+    url("../../../images/background-cover.jpg"), no-repeat;
+  cursor: url("../../../images/Vector.png"), auto;
 }
 
 @media screen and (max-width: 320px) {
